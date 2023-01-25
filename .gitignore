@@ -1,0 +1,27 @@
+*~
+*.bak
+*.orig
+.*.swp
+.DS_Store
+thumbs.db
+
+# local repository customization
+.envrc
+.env
+.bashrc
+.idea
+.editorconfig
+
+# build artifacts
+bundles/
+cli/winresources/*/*.syso
+cli/winresources/*/winres.json
+contrib/builder/rpm/*/changelog
+
+# ci artifacts
+*.exe
+*.gz
+go-test-report.json
+junit-report.xml
+profile.out
+test.main
