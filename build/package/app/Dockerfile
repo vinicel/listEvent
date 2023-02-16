@@ -16,4 +16,4 @@ COPY . .
 EXPOSE 8900
 
 # command to be used to execute when the image is used to start a container
-CMD ["go", "run", "main.go"]
+CMD ["go", "run", "cmd/main.go"]
